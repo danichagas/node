@@ -1,3 +1,5 @@
+const databaseType = true
+
 async function connectToDatabase(dataName) {
   console.log(`Conectado ao banco ${dataName}!`)
 }
@@ -8,5 +10,6 @@ async function disconnectDatabase() {
 
 export {
   connectToDatabase,
-  disconnectDatabase
+  disconnectDatabase,
+  databaseType
 }  
