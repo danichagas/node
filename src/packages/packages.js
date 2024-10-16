@@ -1,1 +1,3 @@
-console.log('Hello my package')
+import chalk from "chalk"
+
+console.log(chalk.green('Hello world!'))
